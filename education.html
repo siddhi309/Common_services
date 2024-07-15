@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="webfonts/css/all.min.css">
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+    
+    
+        <section class="main-top ">
+            <div class="container ">
+                <div class="row">
+                    <div class="col-lg-4  col-sm-5 welcome">
+                        <p class="text-center mb-0" >WELCOME TO COMMAN SERVICE CENTER</p>
+                    </div>
+                    <div class="col-lg-8  col-sm-7  text-sm-right text-center">
+                        <ul class="list-unstyled px-5 py-1 mb-0 popup-with-location"  >
+                          
+                            <li onclick=" location_pop()">
+                                <a href="#small-dialog1" class="popup-with-zoom-anim" >
+                                  
+                                    <i class="fas fa-map-marker mr-2"></i>Select Location
+                                </a>
+                            </li>
+                            <li  class="popup-with-location">
+                                <a href="#">
+                                    <i class="fas fa-sign-in-alt mr-2"></i>Log In
+                                </a>
+                            </li>
+                            <li  class="popup-with-location">
+                                <a href="#">
+                                    <i class="fas fa-sign-out-alt mr-2"></i>Register
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    
+        <section class="header ">
+            <div class="container">
+                <div class="row m-3">
+                    <div class="col-lg-4 text-center  header-text">
+                            <span >C</span>OMMAN 
+    
+                            <span >S</span>ERVICE   
+                    </div>
+    
+                    <div class="col-lg-8 mt-lg-2">
+                        <div class="row">
+                            <div class=" col-lg-9 col-sm-8" >
+                                <form class="form-inline " action="#" method="post" style="max-width:600px;" >
+                                    <input class="form-control d-inline col-10" type="search" placeholder="Search for service"  required="" class="search-box">
+                                
+                                    <button class="btn search-btn d-inline"><i class="fas fa-search"></i></button>
+                                </form>
+                            </div>
+    
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+         </section>
+    
+       
+    
+        
+         <div class="navbar-inner">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-warning sticky-top " >
+                   
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <img src="images/menu-image.png" alt="" width="100%" height="30">
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav text-center ml-auto">
+                            <li class="nav-item active mr-lg-2 mb-lg-0 mb-2">
+                                <a class="nav-link" href="home.html">Home
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+
+                            <li class="nav-item mr-lg-2 mb-lg-0 mb-2">
+                                <a class="nav-link" href="about.html">About Us</a>
+                            </li>
+
+                            <li class="nav-item dropdown mr-lg-2 mb-lg-0 mb-2">
+                                <a class="nav-link dropdown-toggle" href="healthcare.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Health
+                                </a>
+                                <div class="dropdown-menu m-4">
+                                    <div class="  p-1  ">
+                                        <h5 class="mb-3">Healthcare Services</h5>
+                                        
+    
+                                                    <a href="health/consult.html">Consult Doctor</a><br>
+                                                    <a href="health/labs.html">Lab Services</a><br>
+                                                    <a href="#find-hospital">Find Hospitals</a><br>
+                                                    <a href="#find-pharmacy">Find Pharmacy</a><br>
+                                                    
+                                               
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown mr-lg-2 mb-lg-0 mb-2">
+                                <a class="nav-link dropdown-toggle" href="education.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Education
+                                </a>
+                                <div class="dropdown-menu m-4">
+                                    <div class="  p-1  ">
+                                        <h5 class="mb-3"><a href="http://education"></a>Education</h5>
+                                        
+                                                    <a href="education.html">education</a>
+                                                    <a href="education/learning_materials.html">Learning materials</a><br>
+                                                   <a href="education/school_details.html"> admission</a><br>
+                                                    <a href="#find-hospital"> tuition center</a><br>
+                                                    <a href="#find-pharmacy">cultural activity</a><br>
+                                                    <a href="#find-pharmacy">Industry training</a><br>
+                                                
+
+                                    </div>
+                                </div>
+                            </li>
+                           
+                            
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact_us.html">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+    </div>    
+        
+                
+    <section class="slider ">
+                    <div id="carouselExampleIndicators" class=" carousel slide" data-ride="carousel">
+                        <!-- Indicators-->
+                       
+                        <div class="carousel-inner ">
+                            <div class="carousel-item item1 active ">
+                                <div class="banner-style d-flex align-items-center m-4">
+                                    <div class="container">
+                                        <div class="banner  pl-lg-5">
+                                            <div class="carousel-caption-banner " style="max-width:500px ">
+                                                <p>HEALTH CARE</p>
+                                                <p>CSC Health Services serve thousands of people from their earliest years to retirement. Our mission is to help rural masses live healthier lives and make the health system work better and the vision is to play our best part in creating a more sustainable health care system.</p>
+                                               
+                                                <a class="btn btn-style mt-4" href="#">Read more </a>
+                                                
+                                            </div>
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item item2">
+                                <div class="banner-style d-flex align-items-center m-4">
+                                    <div class="container">
+                                        <div class="banner pl-lg-5">
+                                            <div class="carousel-caption-banner" style="max-width:500px">
+                                                <p>EDUCATION</p>
+                                                <p>Education is the process of learning and gaining knowledge, skills, and values. It typically involves attending schools, colleges, or universities, where teachers guide students through various subjects like math, science, history, and languages.</p>
+                                                
+                                                    <a class="btn btn-style mt-4" href="#">Read more </a>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item item3">
+                                <div class="banner-style d-flex align-items-center m-4">
+                                    <div class="container">
+                                        <div class="banner pl-lg-5">
+                                            <div class="carousel-caption-banner" style="max-width:500px">
+                                                <p>TRANSPORTATION</p>
+                                                <p>Transportation is the movement of people, animals, or goods from one place to another.Transportation is essential for connecting different parts of the world, enabling trade, travel, and communication.
+                                                </p>
+                                                    
+                                                <a class="btn btn-style mt-4" href="#">Read more </a>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item item4">
+                                <div class="banner-style d-flex align-items-center m-4">
+                                    <div class="container">
+                                        <div class="banner pl-lg-5">
+                                            <div class="carousel-caption-banner" style="max-width:500px;">
+                                                <p>FINANCE</p>
+                                                <P>you can better manage your money and make informed financial decisions.It is the process of channeling various funds in the form of credit, loans, or invested capital to those economic entities that most need them or can put them to the most productive use.</P>    
+                                                    <a class="btn btn-style mt-4" href="#">Read more </a>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item item5">
+                                <div class="banner-style d-flex align-items-center m-4">
+                                    <div class="container">
+                                        <div class="banner pl-lg-5">
+                                            <div class="carousel-caption-banner" style="max-width:500px;">
+                                                <p>Government</p>
+                                                <p>India is a Sovereign Socialist Secular Democratic Republic with a Parliamentary form of government which is federal in structure with unitary features</p>
+                                                    
+                                                    <a class="btn btn-style mt-4" href="#">Read more </a>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item item6">
+                                <div class="banner-style d-flex align-items-center m-4">
+                                    <div class="container">
+                                        <div class="banner pl-lg-5">
+                                            <div class="carousel-caption-banner" style="max-width:500px;">
+                                                <p>HOUSING</p>
+                                                <p>Housing Service means repairs, maintenance, painting, providing light, hot and cold water, elevator service, window shades and screens, storage, kitchen, bath and laundry facilities and privileges, pest control services, entry systems, and gates. </p>
+                                                <a class="btn btn-style mt-4" href="#"> Read more</a>
+                                            </div>
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                     
+        </section>
+
+        <!-- start  -->
+        <section class="container mt-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/learning.jpg" class="card-img-top" alt="Learning Materials">
+                        <div class="card-body">
+                            <h5 class="card-title">Learning Materials</h5>
+                            <p class="card-text">Find the best learning materials and online mentors.</p>
+                            <a href="education/learning_materials.html" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/school.jpg" class="card-img-top" alt="School Details">
+                        <div class="card-body">
+                            <h5 class="card-title">School Details</h5>
+                            <p class="card-text">Get details about schools, admission windows, and fee structures.</p>
+                            <a href="education/school_details.html" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/reusable.jpg" class="card-img-top" alt="Reusable Materials">
+                        <div class="card-body">
+                            <h5 class="card-title">Reusable Materials</h5>
+                            <p class="card-text">Find second-hand learning materials for lesser cost.</p>
+                            <a href="{{ url_for('reusable_materials') }}" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/tuition.jpg" class="card-img-top" alt="Tuition Centers">
+                        <div class="card-body">
+                            <h5 class="card-title">Tuition Centers</h5>
+                            <p class="card-text">Find the nearest tuition center for a particular subject.</p>
+                            <a href="{{ url_for('tuition_centers') }}" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/artsport.jpg" class="card-img-top" alt="Arts & Sports">
+                        <div class="card-body">
+                            <h5 class="card-title">Arts & Sports</h5>
+                            <p class="card-text">Details on arts, music, sports, and cultural activity centers.</p>
+                            <a href="{{ url_for('arts') }}" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/training.jpg" class="card-img-top" alt="Industry Training">
+                        <div class="card-body">
+                            <h5 class="card-title">Industry Training</h5>
+                            <p class="card-text">Find industry training and job aid centers.</p>
+                            <a href="{{ url_for('industry_training') }}" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+         <!-- end -->
+    
+        <footer class=" text-white text-center py-3 footer">
+            <p>&copy; 2024 Common People's Service</p>
+        </footer>
+    
+           
+</body>
+</html>
+
+
+
